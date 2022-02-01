@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    
   </head>
   <body>
+   
 
     <h1>About me</h1>
 <p>Lorem ipsum dolor sit amet consecteur adipising elit. Odit, reprehenderit
@@ -31,7 +33,7 @@
     <li>Lorem ipsum dolor sit amet consecteur adipising elit. Odit, reprehenderit</li>
 </ul>
 
-Here is a table:
+<p>Here is a table:</p>
 
 <table border="0"
 cellspacing="10">
@@ -51,8 +53,60 @@ cellspacing="10">
 
     </tr>
     </table>
+    
+    <p>Here is a form:</p>
+
+    <form action="process.php" method="POST">
+      <div>
+      <label>First Name:</label>
+      <input type="text" name="first-name"
+      placeholder="Enter first name"> 
+    </div>
+    <br>
+    <div>
+      <label>Enter your email:</label>
+      <input type="email" name="email"> 
+    </div>
+    <br>
+    <div><label>Gender</label>
+    <select name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
 
 
+    </select>
+    </div>
+    <br>
+    <div>
+      <label>Age:</label>
+      <input type="number" name="age"
+      value="30"> 
+    </div> 
+    <br>
+    <div>
+      <label>Birthday:</label>
+      <input type="date" name="birthday"> 
+    </div>
+    <br>
+ <input type="submit" name="submit"
+ value="Submit"> 
+    
+
+    </form>
+    <br>
+
+
+    <button>Click Me</button> 
+    <br>
+    <br>
+    <a href="a4.jpeg">
+      <img src="a4.jpeg" alt="Audi a4">
+  </a>
+
+
+    <div style="margin-top:500px"></div>
+   
 
   </body>
 </html>
